@@ -3,10 +3,9 @@ import { technicalSkills } from '../data/portfolioData';
 
 const SkillProgress = ({ name, level }) => (
   <div className="mb-4">
-    <div className="flex justify-between items-center mb-1">
-      <span className="text-white text-sm font-semibold tracking-wide">{name}</span>
-      <span className="text-red-400 text-xs font-bold font-mono">{level}%</span>
-    </div>
+    <div className="mb-1">
+  <span className="text-white text-sm font-semibold tracking-wide">{name}</span>
+</div>
     <div className="w-full h-1.5 bg-white/5 rounded-full overflow-hidden border border-white/5">
       <div 
         className="h-full bg-gradient-to-r from-blue-600 to-blue-400 rounded-full transition-all duration-1000 ease-out"

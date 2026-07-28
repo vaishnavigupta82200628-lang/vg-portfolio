@@ -35,15 +35,16 @@ export const heroContent = {
     text: "Contact Me",
     href: "mailto:vaishnavigupta82200628@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Vaishnavi,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/assets/vaishnavi_resume-1.pdf" },
+  ctaResume: { text: "View Resume", href: "/assets/vaishnavi_resume-1.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Vaishnavi Gupta</span>, an aspiring engineer based in Agra, India, passionate about artificial intelligence, robotics, and data-driven technologies.`,
+  bio: `<p class="mb-4">I am a passionate and motivated learner currently exploring the field of Artificial Intelligence and emerging technology. My curiosity about how intelligent systems work has led me to build a strong foundation across programming, hardware, and web development.</p>
+<p class="mb-4">I genuinely enjoy the process of building things from scratch — taking an idea, breaking it down, and watching it come together into something functional and real. This process of experimentation and continuous learning is what drew me to technology in the first place, and it's what keeps me coming back to it.</p>
+<p>I believe growth comes from consistently building, failing, and learning again. As I continue to grow, I'm looking forward to opportunities where I can apply what I've learned and keep pushing the boundaries of what I understand and can build.</p>`,
   techStack: ["Python", "AI/ML", "Robotics"],
 };
-
 export const skillsContent = {
   badge: "My Process",
   heading: "Here's how I turn ideas into real-world solutions",

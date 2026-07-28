@@ -128,7 +128,8 @@ const Hero = () => {
 
             <a 
               href={heroContent.ctaResume.href}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="liquid-glass px-4 py-2 md:px-6 md:py-2 text-xs md:text-base rounded-full text-white font-semibold hover:scale-[1.03] transition-all duration-300 flex items-center gap-2"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

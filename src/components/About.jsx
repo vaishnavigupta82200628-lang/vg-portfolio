@@ -37,8 +37,8 @@ const About = () => {
 
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
           <h2 className="text-4xl md:text-5xl font-black text-black mb-4">{aboutContent.heading}</h2>
-          <p 
-            className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-red-50"
+          <div 
+            className="text-base md:text-lg font-medium mb-12 leading-relaxed max-w-3xl text-red-50"
             dangerouslySetInnerHTML={{ __html: aboutContent.bio }}
           />
           <div className="flex items-center gap-10 mt-8">
